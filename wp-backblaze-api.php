@@ -107,19 +107,19 @@ if ( ! class_exists( 'BackBlazeApi' ) ) {
 
 		}
 
-		public function list_parts() {
+		public function list_parts( $file_id, $start_part_number, $max_part_count ) {
 
 		}
 
-		public function list_unfinished_large_files() {
+		public function list_unfinished_large_files( $bucket_id, $start_file_id, $max_file_count ) {
 
 		}
 
-		public function start_large_file() {
+		public function start_large_file( $bucket_id, $file_name, $content_type, $file_info = '' ) {
 
 		}
 
-		public function update_bucket() {
+		public function update_bucket( $account_id, $bucket_id, $bucket_type, $lifecycle_rules = '', $if_revision_ls = '' ) {
 
 		}
 
